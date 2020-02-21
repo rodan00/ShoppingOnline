@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>AppSODB</title>
+</head>
+<body>
+<b>
+    <p th:text="${komunikat}"></p>
+</b>
+<br><br>
+========================================================
+<form action="/addnewproduct" method="post">
+    <b> Enter new product: </b><br>
+    <input type="text" placeholder="product name" name="productname">
+    <input type="text" placeholder="product price" name="productprice">
+    <input type="text" placeholder="product quantity" name="productquant">
+    <input type="submit" value="ADD">
+</form>
+<br>
+=========================================================
+
+<br><br>
+<th:block th:each="item : ${products}">
+    <div>
+        <form th:action="${'/updateproduct/'+item.productId}" method="post">
+            <p th:text="${item}"></p>
+            <input type="text" placeholder="update quantity" name="updatedquant">
+            <input type="submit" value="UPDATE">
+        </form>
+        <br>
+        <form th:action="${'/removeproduct/'+item.productId}" method="post">
+            <input type="submit" value="Remove product from Data Base">
+        </form>
+    </div>
+_________________________________________________________
+</th:block>
+
+<div>
+    <b>
+        <br><br><br><br>
+        <a href="/adminpanel" ><- back</a>
+    </b>
+</div>
+
+</body>
+</html>

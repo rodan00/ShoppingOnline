@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>AppSODB</title>
+</head>
+<body>
+
+
+<b>
+TRANSACTION (ORDER) DETAILS:
+</b>
+<th:block th:each="item : ${listoforderitems}">
+    <div>
+        <p th:text="${item}"></p>
+    </div>
+</th:block>
+
+
+
+<br><br><br><br>
+<b>
+<a href="/history"> <- back </a>
+</b>
+
+</body>
+</html>

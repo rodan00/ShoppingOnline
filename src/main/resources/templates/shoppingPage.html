@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>AppSODB</title>
+</head>
+<body>
+
+
+<b> List of products </b>>
+<th:block th:each="product : ${products}">
+    <div class="product">
+   <!--
+        <p th:text="${product.productid}"></p>
+        <p th:text="${product.productname}"></p>
+        <p th:text="${product.productprice}"></p>
+        <p th:text="${product.storequant}"></p>
+        <a th:href="${'/basket/' + product.productid}">product to basket</a>
+   -->
+        <p th:text="${product}"></p>
+    </div>
+</th:block>
+
+<br><br><br><br>
+<b> Current basket: </b>
+<th:block th:each="basketitem : ${basket}">
+    <div >
+        <p th:text="${basketitem}"></p>
+    </div>
+</th:block>
+<br>
+
+<b> Current basket value:
+<div>
+    <p th:text="${basketvalue}"></p>
+</div>
+</b>
+<br><br>
+
+<b>Add product to basket: </b>
+<form method="post" id="shoppingForm"  class="shiftToTheRight">
+    <input type="text"  placeholder="enter productId" autofocus name="productid">
+    <br><br>
+    <input type="text" placeholder="enter quantity" name="orderquant">
+    <br><br>
+    <input type="submit" value="Add to the basket">
+</form>
+<br>
+
+<b>
+    <a href="/buybasket">Buy basket</a>
+
+
+<br><br><br>
+
+<a href="/clearbasket">Clear basket</a>
+</b>
+
+<div>
+    <b>
+        <br><br><br>
+        <a href="/main" ><- back</a>
+    </b>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+#shoppingOnline {
+font-size: 2em;
+/* standardowo rozmiar czcionki jest w px, można też podawać w jednostkach em
+gdzie 1.5em to 150% wielkości podstawowej defaultowej czcionki (czyli chyba 16 ??)*/;
+color: RoyalBlue;
+/* try: DarkOlive, DarkRred, CornflowerBlue,DarkGreen, DarkSlateGrey, DimGrey, Navy, Maroon*/
+font-style: normal; /*{normal, italic, oblique}*/
+font-weight: bold;   /* {normal,bold} */
+}
+
+#pleaseLogin {
+font-size: 1.5em;
+color: RoyalBlue;
+font-style: normal;
+}
+
+#loginForm {
+display: block;
+font-size: 1.5em;
+margin-top: 50px;
+}
+
+#box1{
+margin-top: 50px;
+}
+
+#orRegister {
+font-size: 1.2em;
+color: RoyalBlue;
+font-style: normal;
+}
+
+.shiftToTheRight {
+margin-top:50px;
+margin-left: 100px;
+
+
+
+}

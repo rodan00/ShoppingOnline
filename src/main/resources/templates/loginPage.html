@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>AppSODB</title>
+    <link rel="stylesheet" href="loginPage.css">
+</head>
+<body>
+
+<div id="shoppingOnline" class="shiftToTheRight"> SHOPPING ONLINE - WELCOME </div>
+<div id="pleaseLogin" class="shiftToTheRight"> Please login</div>
+
+<form method="post" id="loginForm"  class="shiftToTheRight">
+
+    <input type="text" id="box1" placeholder="login" autofocus name="login">
+    <br>
+    <input type="password" placeholder="password" name="pass">
+    <br>
+    <input type="submit" value="Login">
+</form>
+
+<div id="orRegister" class="shiftToTheRight">
+
+
+    <a href="/register">or click to register</a>
+    <br>
+    <a href="/guest">or be my Guest</a>
+    <br>
+    <a href="/quit" >or quit</a>
+</div>
+
+</body>
+</html>

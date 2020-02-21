@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>AppSODB</title>
+</head>
+<body>
+
+<b>
+    <p th:text="${komunikat}"></p>
+</b>
+<br><br>
+
+<th:block th:each="item : ${users}">
+    <div>
+        <p th:text="${item}"></p>
+
+        <form th:action="${'/setusertoadmin/'+item.id}" method="post">
+            <input type="submit" value="Set user to ADMIN">
+        </form>
+        <form th:action="${'/setusertouser/'+item.id}" method="post">
+            <input type="submit" value="Set user to USER">
+        </form>
+        <form th:action="${'/setusertovisitor/'+item.id}" method="post">
+            <input type="submit" value="Set user to VISITOR">
+        </form>
+        <form th:action="${'/removeuser/'+item.id}" method="post">
+            <input type="submit" value="Remove user from DB">
+        </form>
+    </div>
+</th:block>
+
+
+<div>
+    <b>
+        <br><br><br><br>
+        <a href="/adminpanel" ><- back</a>
+    </b>
+</div>
+
+
+
+
+</body>
+</html>

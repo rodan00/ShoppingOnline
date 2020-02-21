@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>AppAODB</title>
+</head>
+<body>
+<b>
+TRANSACTION HISTORY:
+</b>
+<th:block th:each="item : ${listoforders}">
+    <div>
+        <!--
+             <p th:text="${product.productid}"></p>
+             <p th:text="${product.productname}"></p>
+             <p th:text="${product.productprice}"></p>
+             <p th:text="${product.storequant}"></p>
+             <a th:href="${'/basket/' + product.productid}">product to basket</a>
+        -->
+        <p th:text="${item}"></p>
+        <a th:href="${'/order/'+item.orderId}">check order details</a>
+        _________________________________________________________
+    </div>
+</th:block>
+
+<br><br><br><br>
+<b>
+<a href="/main"> <- back </a>
+</b>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="397b248d-7dd6-4dcf-908d-7005c2858e6b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y16OFsc1QYe7OdStqWwuGlEKMo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ItCamp/2020-02-16  Baza Danych JDBC" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="AppSODB.dao" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppSODB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppSODB.AppSODB" />
+      <module name="ShoppingOnlineDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AppSODB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppSODB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="397b248d-7dd6-4dcf-908d-7005c2858e6b" name="Default Changelist" comment="" />
+      <created>1582097719471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582097719471</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="333" y="258" key="#Project_Structure" timestamp="1582098159864">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="333" y="258" key="#Project_Structure/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582098159864" />
+    <state x="431" y="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582111079514">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="431" y="403" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582111079514" />
+    <state x="546" y="284" width="461" height="794" key="#com.intellij.ide.util.MemberChooser" timestamp="1582235311733">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="546" y="284" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160/1920.0.1680.1010@0.0.1920.1160" timestamp="1582143970087" />
+    <state x="546" y="284" width="461" height="794" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582235311733" />
+    <state x="537" y="459" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582100770080">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="537" y="459" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582100770080" />
+    <state x="463" y="355" key="FileChooserDialogImpl" timestamp="1582220154508">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="463" y="355" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1680.1010@0.0.1920.1160" timestamp="1582131086381" />
+    <state x="463" y="355" key="FileChooserDialogImpl/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582220154508" />
+    <state width="1009" height="414" key="GridCell.Tab.0.bottom" timestamp="1582311899222">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1269" height="599" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1680.1010@0.0.1920.1160" timestamp="1582150907414" />
+    <state width="1009" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582311899222" />
+    <state width="1009" height="414" key="GridCell.Tab.0.center" timestamp="1582311899222">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1269" height="599" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1680.1010@0.0.1920.1160" timestamp="1582150907414" />
+    <state width="1009" height="414" key="GridCell.Tab.0.center/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582311899222" />
+    <state width="1009" height="414" key="GridCell.Tab.0.left" timestamp="1582311899222">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1269" height="599" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1680.1010@0.0.1920.1160" timestamp="1582150907414" />
+    <state width="1009" height="414" key="GridCell.Tab.0.left/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582311899222" />
+    <state width="1009" height="414" key="GridCell.Tab.0.right" timestamp="1582311899222">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1269" height="599" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1680.1010@0.0.1920.1160" timestamp="1582150907414" />
+    <state width="1009" height="414" key="GridCell.Tab.0.right/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582311899222" />
+    <state x="2046" y="252" width="873" height="822" key="dock-window-1" timestamp="1582295214157">
+      <screen x="1920" y="157" width="1680" height="1010" />
+    </state>
+    <state x="932" y="25" width="1061" height="1074" key="dock-window-1/0.0.1920.1160/1920.0.1680.1010@0.0.1920.1160" timestamp="1582149671917" />
+    <state x="2046" y="252" width="873" height="822" key="dock-window-1/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582295214157" />
+    <state x="2668" y="347" width="796" height="700" key="dock-window-2" timestamp="1582215649924">
+      <screen x="1920" y="157" width="1680" height="1010" />
+    </state>
+    <state x="71" y="138" width="916" height="763" key="dock-window-2/0.0.1920.1160/1920.0.1680.1010@0.0.1920.1160" timestamp="1582148710304" />
+    <state x="2668" y="347" width="796" height="700" key="dock-window-2/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582215649924" />
+    <state x="1976" y="206" width="796" height="700" key="dock-window-2/0.0.1920.1200/1920.157.1680.1050@0.0.1920.1200" timestamp="1582211942317" />
+    <state x="379" y="115" width="1023" height="946" key="dock-window-3" timestamp="1582311483754">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="379" y="115" width="1023" height="946" key="dock-window-3/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582311483754" />
+    <state x="1174" y="0" width="762" height="1018" key="dock-window-4" timestamp="1582233581912">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1174" y="0" width="762" height="1018" key="dock-window-4/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582233581912" />
+    <state x="2627" y="233" width="834" height="994" key="dock-window-5" timestamp="1582295214157">
+      <screen x="1920" y="157" width="1680" height="1010" />
+    </state>
+    <state x="2627" y="233" width="834" height="994" key="dock-window-5/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582295214157" />
+    <state x="1179" y="33" width="745" height="994" key="dock-window-6" timestamp="1582300922550">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1179" y="33" width="745" height="994" key="dock-window-6/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582300922550" />
+    <state x="998" y="79" width="736" height="596" key="find.popup" timestamp="1582234873536">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="998" y="79" width="736" height="596" key="find.popup/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582234873536" />
+    <state x="71" y="284" key="new project wizard" timestamp="1582187825008">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="71" y="284" key="new project wizard/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582187825008" />
+    <state x="574" y="285" width="672" height="678" key="search.everywhere.popup" timestamp="1582221847835">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="574" y="285" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/1920.157.1680.1010@0.0.1920.1160" timestamp="1582221847835" />
+  </component>
+</project>
